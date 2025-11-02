@@ -13,8 +13,9 @@ transformers==4.35.0
 accelerate==0.25.0
 
 # Vector Search
-faiss-cpu==1.7.4
-# faiss-gpu==1.7.4  # Uncomment if using GPU (requires CUDA)
+# Use a recent FAISS CPU wheel that is available on Streamlit Cloud/Linux and Windows.
+faiss-cpu==1.12.0
+# faiss-gpu  # GPU wheels are platform-specific; prefer CPU on Streamlit Cloud
 
 # Image Processing
 Pillow==10.1.0

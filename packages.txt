@@ -1,0 +1,3 @@
+# Optional system packages for Streamlit Cloud (Debian-based)
+# Uncomment if you want OCR support via pytesseract
+# tesseract-ocr
