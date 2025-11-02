@@ -5,7 +5,9 @@ pydantic==2.5.0
 python-multipart==0.0.6
 
 # Deep Learning & Embeddings
-torch==2.1.0
+# Note: Choose a torch version compatible with your Python/OS.
+# For Python 3.11/3.12 on Windows, torch 2.5.x+ wheels are available on PyPI.
+torch==2.5.1
 sentence-transformers==2.2.2
 transformers==4.35.0
 accelerate==0.25.0

@@ -82,22 +82,9 @@ flowchart TB
 
 Key points:
 - Text chunks and image candidates are retrieved independently and merged by score.
-- Reranking improves grounding; selected images are passed to Gemini alongside text.
-
-### Early Fusion
-
-Create a single per-page fused vector of text + average image embeddings.
-
 ```mermaid
 flowchart TB
     P[Page] --> TXT[E5 text emb]
-    P --> IMG[Avg CLIP image emb]
-    TXT --> F[[Fused vector [w_t*txt ; w_i*img]]]
-    IMG --> F
-    F --> FIDX[FAISS fused index]
-    Q[Query] --> QTXT[E5 text emb]
-    QTXT --> QF[[Query fused vector]]
-    QF --> FIDX
     FIDX --> TK[Top-K pages]
     TK --> RR[Rerank]
     RR --> Ctx[Contexts + images]
@@ -129,7 +116,11 @@ flowchart TB
     IFU --> S3[Scores]
     S1 --> COMB[Weighted combine]
     S2 --> COMB
-    S3 --> COMB
+     This file is deprecated.
+
+     Please see the up-to-date documentation in README.md.
+
+     Reason: The project now has a professional, consolidated README and this legacy file is kept empty to avoid confusion.
     COMB --> RR[Rerank]
     RR --> A[Gemini]
 
