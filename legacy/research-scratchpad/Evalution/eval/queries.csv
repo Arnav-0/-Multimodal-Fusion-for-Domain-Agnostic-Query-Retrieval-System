@@ -1,0 +1,11 @@
+qid,doc_path,question,answer_text,answer_numeric,answer_page,answer_type
+Q1,https://mlopsbalti.s3.eu-north-1.amazonaws.com/xyz.pdf,How many total orders were delivered?,,10297,12,numeric
+Q2,https://mlopsbalti.s3.eu-north-1.amazonaws.com/xyz.pdf,What is the total revenue generated?,,1845863.74,13,numeric
+Q3,https://mlopsbalti.s3.eu-north-1.amazonaws.com/xyz.pdf,What is the average order value?,,179.26,13,numeric
+Q4,https://mlopsbalti.s3.eu-north-1.amazonaws.com/xyz.pdf,What percentage of orders were cancelled?,,1.93,14,numeric
+Q5,https://mlopsbalti.s3.eu-north-1.amazonaws.com/xyz.pdf,Which technology was chosen for the dashboard frontend and why?,"ReactJS was chosen for its component reusability and ability to create interactive dashboards.",,,text
+Q6,https://mlopsbalti.s3.eu-north-1.amazonaws.com/xyz.pdf,According to the literature review, which model helps determine if a customer has churned?,"Survival analysis model.",,,text
+Q7,https://mlopsbalti.s3.eu-north-1.amazonaws.com/xyz.pdf,What operational gaps were identified in the problem statement?,"High cancellation rates, delays in order deliveries, and lack of visibility into operational performance.",,,text
+Q8,https://mlopsbalti.s3.eu-north-1.amazonaws.com/xyz.pdf,List two customer behavior KPIs mentioned in the document.,"Average Order Value (AOV), Order Frequency.",,,text
+Q9,https://mlopsbalti.s3.eu-north-1.amazonaws.com/xyz.pdf,What are the planned outcomes of this project?,"Improved operational efficiency, better customer satisfaction, and real-time visibility of KPIs through an analytics dashboard.",,,text
+Q10,https://mlopsbalti.s3.eu-north-1.amazonaws.com/xyz.pdf,What is the main objective of the Mealawe project as stated in the introduction?,"To analyze and visualize customer behavioral and order fulfillment KPIs for Mealawe to improve decision-making.",,,text

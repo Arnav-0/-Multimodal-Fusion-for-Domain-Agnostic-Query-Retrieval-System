@@ -1,0 +1,40 @@
+{
+  "session_info": {
+    "timestamp": "20250830_001230",
+    "filename": "1706.03762.pdf",
+    "document_url": "https://arxiv.org/pdf/1706.03762.pdf",
+    "processing_date": "2025-08-30T00:12:30.545175"
+  },
+  "document_info": {
+    "filename": "1706.03762.pdf",
+    "file_type": "PDF",
+    "file_size_bytes": 2215244,
+    "text_length": 41198,
+    "chunks_created": 36,
+    "questions_processed": 2,
+    "answers_generated": 2,
+    "processing_times": {
+      "text_extraction": "1.51s",
+      "text_embedding": "2.01s",
+      "qa_processing": "3.37s",
+      "total": "12.60s"
+    }
+  },
+  "qa_pairs": [
+    {
+      "question_id": 1,
+      "question": "What is the paper about?",
+      "answer": "I am unsure of the exact paper you are referring to, but the context provided mentions several papers on a range of topics related to natural language processing and machine learning. Some specific topics include neural machine translation, self-training for parsing, and gated recurrent neural networks."
+    },
+    {
+      "question_id": 2,
+      "question": "What does Figure 1 show?",
+      "answer": "Figure 1 shows the Transformer model architecture, including the stacked self-attention and point-wise, fully connected layers for both the encoder and decoder."
+    }
+  ],
+  "summary": {
+    "total_questions": 2,
+    "total_answers": 2,
+    "processing_complete": true
+  }
+}

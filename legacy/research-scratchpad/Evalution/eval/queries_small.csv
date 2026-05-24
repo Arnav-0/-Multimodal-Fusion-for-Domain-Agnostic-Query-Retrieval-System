@@ -1,0 +1,4 @@
+qid,doc_path,question,answer_text,answer_numeric,answer_page,answer_type
+Q1,s:\Multimodal Project\Evalution\documents\xyz.pdf,How many total orders were delivered?,,10297.0,13.0,numeric
+Q2,s:\Multimodal Project\Evalution\documents\xyz.pdf,What is the total revenue generated?,,1845863.74,13.0,numeric
+Q3,s:\Multimodal Project\Evalution\documents\xyz.pdf,Which technology was chosen for the dashboard frontend and why?,ReactJS was chosen for its component reusability and ability to create interactive dashboards.,,,text

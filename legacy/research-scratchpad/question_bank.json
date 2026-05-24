@@ -1,0 +1,42 @@
+{
+  "text_general": [
+    "What is the main topic or objective of this document?",
+    "Summarize the overall contribution in one or two sentences.",
+    "List two key methods or techniques discussed."
+  ],
+  "figure_diagram": [
+    "Describe the main components shown in the first diagram and how they relate.",
+    "Based on the first architecture diagram, what extra connection or operation distinguishes the two blocks?",
+    "What does the flow in the diagram indicate about information passing?"
+  ],
+  "chart_graph": [
+    "Describe the trend in the first chart or graph (e.g., does the error go down as iterations increase?).",
+    "Which model or line appears better in the first plotted comparison?",
+    "Is there evidence of overfitting or plateauing in the chart?"
+  ],
+  "table_lookup": [
+    "From the first table, report one specific numeric value that stands out (and state what it refers to).",
+    "According to the first comparison table, which option has the lowest error/maximum score?",
+    "Give the value for the first row and first metric in the initial table."
+  ],
+  "cross_modal": [
+    "Combine the diagram and the text to explain the central idea in one short paragraph.",
+    "Using both narrative and figure(s), what is the key difference between the two compared systems?",
+    "How do the results (table/plot) support the claim made in the abstract or introduction?"
+  ],
+  "doc_structure": [
+    "List three section headings present in the document.",
+    "Which section discusses experimental results or evaluation?",
+    "What datasets or benchmarks are named anywhere in the document?"
+  ],
+  "ocr_scanned": [
+    "Transcribe one short phrase from the first page image and tell where it appears.",
+    "From the scanned content, extract one date/number that you can see.",
+    "What is the title detected from the scanned page?"
+  ],
+  "robustness": [
+    "Ask a question that is not answered in this document and explain why it cannot be answered.",
+    "If a requested figure or table is missing, how would you handle the user query?",
+    "If the document is corrupted or empty, what would your system return?"
+  ]
+}

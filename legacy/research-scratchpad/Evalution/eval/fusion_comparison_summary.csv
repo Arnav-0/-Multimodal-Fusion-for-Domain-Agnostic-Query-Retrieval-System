@@ -1,0 +1,4 @@
+System,Confidence,Latency_ms,Exact_Match,F1_Score,ROUGE_L,METEOR,BLEU,Numeric_Accuracy,Mean_Absolute_Error,Recommendation
+Early Fusion,0.275,40241.3,0.000,0.082,0.075,0.065,0.006,0.500,923074.87,✅ Best (Fastest)
+Hybrid Fusion,0.275,41056.5,0.000,0.082,0.075,0.065,0.006,0.500,923074.87,🔄 Second
+Late Fusion,0.275,41253.7,0.000,0.082,0.075,0.065,0.006,0.500,923074.87,🐌 Slowest

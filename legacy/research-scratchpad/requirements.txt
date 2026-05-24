@@ -1,0 +1,27 @@
+# FastAPI and Server
+fastapi
+uvicorn[standard]
+
+# Document Processing
+PyMuPDF
+python-docx
+
+# AI & Machine Learning
+cohere
+faiss-cpu
+numpy
+sentence-transformers
+torch
+torchvision
+Pillow
+rank_bm25
+transformers
+bitsandbytes
+accelerate
+
+# Utilities
+python-dotenv
+requests
+aiohttp
+psutil
+certifi

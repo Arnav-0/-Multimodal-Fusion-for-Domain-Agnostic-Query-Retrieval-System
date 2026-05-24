@@ -1,0 +1,4 @@
+system,confidence,latency_ms,EM,F1,Num_Acc@tol,Num_MAE,Num_RMSE,Recall@5,Recall@10,MRR
+Early Fusion,0.38314,41668.5702085495,,,0.0,,,,,
+Hybrid Fusion,0.37563462072729537,168087.23878860474,,,0.0,,,,,
+Late Fusion,0.3692678408096981,105626.38356685638,,,0.0,,,,,
